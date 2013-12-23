@@ -1,0 +1,8 @@
+
+alias C="rails console"
+alias S="rails server"
+alias T="tail -f "
+alias TL="tail -f log/local.log"
+alias F="foreman start"
+alias GCO="git commit -a -m"
+alias GS="git status"

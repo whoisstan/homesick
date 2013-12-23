@@ -7,13 +7,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export PGHOST=localhost
 
 
-alias C="rails console"
-alias S="rails server"
-alias T="tail -f "
-alias TL="tail -f log/local.log"
-alias F="foreman start"
-alias GCO="git commit -a -m"
-alias GS="git status"
 
 
 
@@ -87,6 +80,7 @@ export PS2="\[$ORANGE\]→ \[$RESET\]"
 # Only show the current directory's name in the tab 
 export PROMPT_COMMAND='echo -ne "\033]0;${PWD##*/}\007"'
 
+source .aliases
 source .functions
 source .private
 
