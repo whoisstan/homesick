@@ -1,0 +1,15 @@
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+brew install fortune
+brew install direnv
+brew install openssl
+brew install tree
+brew install git
+brew install brew-cask
+
+
+
+\curl -sSL https://get.rvm.io | bash -s stable --ruby
+gem install hirb
+gem install bundle
+
+
