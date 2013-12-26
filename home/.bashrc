@@ -83,6 +83,7 @@ export PROMPT_COMMAND='echo -ne "\033]0;${PWD##*/}\007"'
 source .aliases
 source .functions
 source .private
+source .zshrc
 
 eval "$(direnv hook $0)"
 
