@@ -5,7 +5,7 @@ export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export PATH="/Applications/Postgres.app/Contents/MacOS/bin/:$PATH"
 export PATH="/usr/local/heroku/bin:$PATH"
 export PGHOST=localhost
-
+export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
 
 
 
